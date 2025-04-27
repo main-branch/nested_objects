@@ -22,7 +22,7 @@ Here is an example of using the `dig` method:
 ```Ruby
 require 'nested_objects'
 
-data = { 'people' => [{ 'name' => 'John'}, { 'name', 'Jane' }] }
+data = { 'people' => [{ 'name' => 'John'}, { 'name' => 'Jane' }] }
 path = 'people/0/name'.split('/')
 NestedObjects.dig(data, path) #=> 'John'
 ```
@@ -32,14 +32,18 @@ See documentation and examples of the full API in
 
 ### Object Mixin
 
-As a convenience, these methods can be mixed into other classes by including the `NestedObjects::Mixin` module.
+As a convenience, these methods can be mixed into other classes by including the
+`NestedObjects::Mixin` module.
 
-In order to reduce the possibility of method name conflicts, all methods are prefixed with `nested_`.
+In order to reduce the possibility of method name conflicts, all methods are prefixed
+with `nested_`.
 
 ```Ruby
+require 'nested_objects'
+
 Object.include NestedObjects::Mixin
 
-data = { 'people' => [{ 'name' => 'John'}, { 'name', 'Jane' }] }
+data = { 'people' => [{ 'name' => 'John'}, { 'name' => 'Jane' }] }
 path = 'people/0/name'.split('/')
 data.nested_dig(path) #=> 'John'
 ```
