@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.18](https://github.com/main-branch/nested_objects/compare/v0.1.17...v0.1.18) (2025-04-27)
+
+
+### Other Changes
+
+* Correct syntax error in example data and improve formatting in README ([64dc3b9](https://github.com/main-branch/nested_objects/commit/64dc3b9e804c801733d003c0c7eb54af3f644786))
+
 ## [0.1.17](https://github.com/main-branch/nested_objects/compare/v0.1.16...v0.1.17) (2025-04-27)
 
 
