@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.18](https://github.com/main-branch/nested_objects/compare/v0.1.17...v0.1.18) (2026-04-24)
+
+
+### Other Changes
+
+* Correct syntax error in example data and improve formatting in README ([64dc3b9](https://github.com/main-branch/nested_objects/commit/64dc3b9e804c801733d003c0c7eb54af3f644786))
+* **dependencies:** Update dependencies for all GitHub Actions workflows ([ead4d20](https://github.com/main-branch/nested_objects/commit/ead4d2054bdc65bbf6d39559d69612463466d041))
+
 ## [0.1.17](https://github.com/main-branch/nested_objects/compare/v0.1.16...v0.1.17) (2025-04-27)
 
 
